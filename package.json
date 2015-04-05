@@ -8,7 +8,7 @@
     "url": "http://github.com/plamoureux/co"
   },
   "jspm": {
-    "main": "src/index",
+    "main": "index",
     "format": "register",
     "directories": {
       "lib": "dist/system"

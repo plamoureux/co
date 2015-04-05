@@ -1,0 +1,42 @@
+{
+  "name": "co",
+  "version": "4.5.1",
+  "description": "Generator async control flow goodness",
+  "main": "dist/commonjs/index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/plamoureux/co"
+  },
+  "jspm": {
+    "main": "src/index",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "babel-runtime": "npm:babel-runtime@^4.7.8"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+    }
+  },
+  "dependencies": {
+    "babel-runtime": "^4.7.8"
+  },
+  "devDependencies": {
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^4.0.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "jasmine-core": "^2.1.3",
+    "karma": "^0.12.28",
+    "karma-babel-preprocessor": "^4.0.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.5",
+    "karma-jspm": "^1.0.1",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-paths": "^1.0.0"
+  }
+}
